@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
         // 1 задача
         byte age = 19;
-        if (age > 18) {
-            System.out.println("он совершеннолетний");
+        if (age >= 18) {
+            System.out.println("Если возраст человека равен "+ age +" он совершеннолетний");
         } else {
-            System.out.println("он не достиг совершеннолетия, нужно немного подождать");
+            System.out.println("Если возраст человека равен "+ age +" он не достиг совершеннолетия, нужно немного подождать");
         }
         // 2 задча
-        byte temperature = -6;
-        if (temperature < -5) {
+        byte temperature = 4;
+        if (temperature < 5) {
             System.out.println("На улице холодно, нужно надеть шапку");
         } else {
             System.out.println("Сегодня тепло, можно идти без шапки");
